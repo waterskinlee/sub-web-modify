@@ -358,6 +358,10 @@ export default {
             label: "CM规则",
             options: [
               {
+                label: "ACL4SSR_Online_Full_Google",
+                value: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/config/ACL4SSR_Online_Full_Google.ini"
+              },
+              {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
               },
@@ -1308,3 +1312,4 @@ export default {
   }
 };
 </script>
+
